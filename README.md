@@ -50,4 +50,17 @@ cmake ..
 make
 ```
 
-  
+### Running
+The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
+##### For image input use flag `-i` or `--image`
+```
+./ObjectDetection -i=../image.jpg
+```
+##### For video input use flag `-v` or `--video`
+```
+./ObjectDetection -v=../video.mp4
+```
+##### For webcam input no flags are required. Although special priviledges may be required.
+
+### Usage
+You can view the usage or help page by using these `--help`, `-h`, `-?` flags.
