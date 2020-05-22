@@ -30,3 +30,24 @@ git@github.com:VasuGoel/object-detection-yolov3.git
   * Windows: Pre-built binaries can found [here](https://opencv.org/opencv-4-3-0/)
   * Download OpenCV 4.3.0 source code from [here](https://codeload.github.com/opencv/opencv/zip/4.3.0)
   
+## Download model files
+You can download the YOLOv3 model configurations, trained weights and class names in the COCO dataset by running the shell script as follow:
+```
+sudo chmod a+x getModelConfig.sh
+./getModelConfig.sh
+```
+or if you wish to train a YOLOv3 model on your own dataset then skip this part but remember to update the model file paths with the new configurations, weights and class names.
+
+## Compiling and Running
+### Compiling
+To compile the project, create a `build` directory and `cd` into that directory:
+```
+mkdir build && cd build
+```
+From within the `build` directory, run `cmake` and `make` as follows:
+```
+cmake ..
+make
+```
+
+  
