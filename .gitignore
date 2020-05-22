@@ -1,6 +1,7 @@
   
 *.swp
 *.o
+.vscode/
 bin/
 build/
 yolov3-coco/
