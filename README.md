@@ -6,7 +6,7 @@ published model recognizes 80 different objects of the COCO dataset in images an
 <p align="center"> <em>When run on images</em> </p>
 <p align="center"> <img src="./images/images_yolo_output.gif" alt> </p>
 
-<p align="center"> <em>When run on video or data stream </em> </p>
+<p align="center"> <em>When run on video or stream data</em> </p>
 <p align="center"> <img src="./images/subway_yolo_output.gif" alt> </p>
 
 ## Cloning
