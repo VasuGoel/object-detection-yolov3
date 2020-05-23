@@ -3,6 +3,12 @@ Deep Learning Object Detection in image, video and stream data using YOLOv3 obje
 computer vision library. YOLOv3 is the latest variant of the popular object detection algorithm YOLO - You Only Look Once. The
 published model recognizes 80 different objects of the COCO dataset in images and videos.
 
+<p align="center"> <em>When run on images</em> </p>
+<p align="center"> <img src="./images/images_yolo_output.gif" alt> </p>
+
+<p align="center"> <em>When run on video or data stream </em> </p>
+<p align="center"> <img src="./images/subway_yolo_output.gif" alt> </p>
+
 ## Cloning
 You can clone the repository with HTTPS:
 ```
